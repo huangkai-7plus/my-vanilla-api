@@ -16,7 +16,8 @@
 
   <script>
     (async function() {
-      let text = await(fetch(`https://message20200709064333.azurewebsites.net/api/message`));
+      let text = await(fetch(`https://message20200709064333.azurewebsites.net/api/message`);
+      document.querySelector('#name').textContent = text;
     }())
   </script>
 </body>
