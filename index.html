@@ -15,8 +15,8 @@
   </main>
 
   <script>
-    (async function() {
-      let text = fetch(`https://message20200709064333.azurewebsites.net/api/message`);
+    (function() {
+      let text = fetch(`https://message20200709064333.azurewebsites.net/api/message`).Tostring;
       document.querySelector('#name').textContent = text;
     }())
   </script>
